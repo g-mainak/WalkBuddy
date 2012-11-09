@@ -1,0 +1,30 @@
+<resources>
+
+    <string name="app_name">Walk Buddy</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Walk Buddy</string>
+    <string name="button_one">Show</string>
+    <string name="button_two">Map</string>
+    <string name="button_three">Buddies</string>
+    <string name="button_four">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_show_content">Show Buddies</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="tracker_address">Input Tracker Address</string>
+    <string name="netid">Enter Your Own NetID</string>
+    <string name="frequency">Tracking interval in seconds</string>
+    <string name="submit">Submit</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="title_activity_buddies">Buddies</string>
+    <string name="title_activity_show">Show</string>
+    <string name="user_location">Your Location</string>
+    <string name="b1_location">Buddy1\'s Location</string>
+    <string name="b2_location">Buddy2\'s Location</string>
+    <string name="time_update">Enter the update interval (in seconds)</string>
+    <string name="error">Error!</string>
+    <string name="sum">Sum</string>
+    <string name="title_activity_maps">Maps</string>
+    <string name="mapApiKey">07uxXff70DIWJr8UvSRc-1MwdwNYqeOkHSia6ug</string>
+
+</resources>

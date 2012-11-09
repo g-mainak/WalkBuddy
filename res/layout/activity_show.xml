@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/self_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="19dp"
+        android:hint="@string/user_location" />
+
+    <TextView
+        android:id="@+id/b1_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"        
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/self_location"
+        android:layout_marginTop="28dp"
+        android:hint="@string/b1_location" />
+
+    <TextView
+        android:id="@+id/b2_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/b1_location"        
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp"
+        android:hint="@string/b2_location" />
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/b2_location"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:text="@string/start" />
+
+</RelativeLayout>
